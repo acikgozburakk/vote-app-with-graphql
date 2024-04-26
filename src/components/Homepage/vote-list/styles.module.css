@@ -1,0 +1,30 @@
+.wrapper {
+  @apply w-[300px] h-[250px] overflow-hidden overflow-y-auto md:h-auto px-5 py-8 bg-mintTulip rounded-lg;
+}
+
+.image {
+  @apply w-1/5   rounded-full;
+}
+
+.userWrapper {
+  @apply mb-3 flex;
+}
+.infoWrapper {
+  @apply w-3/5 ml-3;
+}
+
+.name {
+  @apply text-sm font-bold;
+}
+
+.job {
+  @apply text-xs;
+}
+
+.title {
+  @apply text-center mb-3 md:mb-7 font-bold text-xl md:text-2xl;
+}
+
+.voteCount {
+  @apply w-1/5 text-xl font-bold;
+}

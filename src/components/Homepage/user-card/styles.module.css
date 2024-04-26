@@ -1,0 +1,35 @@
+.wrapper {
+  @apply w-[280px] h-[370px] bg-white rounded-2xl mb-7;
+}
+
+.imageWrapper {
+  @apply w-full h-[180px] flex items-center justify-center;
+}
+
+.image {
+  @apply rounded-full;
+}
+
+.contentWrapper {
+  @apply flex flex-col items-center;
+}
+
+.name {
+  @apply block font-bold md:text-xl  mt-2 truncate;
+}
+
+.email {
+  @apply block text-[15px] md:text-base cursor-pointer mt-3 truncate;
+}
+
+.job {
+  @apply text-xs truncate;
+}
+
+.voteButton {
+  @apply bg-darkMintGreen  text-white rounded-lg border px-10 py-3 hover:bg-white hover:text-darkMintGreen hover:shadow-2xl transition duration-400;
+}
+
+.buttonWrapper {
+  @apply flex items-center justify-center mt-3;
+}
