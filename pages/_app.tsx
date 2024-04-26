@@ -5,6 +5,8 @@ import type { AppProps } from "next/app";
 
 import Head from "next/head";
 
+import Header from "@/src/components/common/header";
+
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
@@ -14,6 +16,7 @@ export default function App({ Component, pageProps }: AppProps) {
           rel="stylesheet"
         />
       </Head>
+      <Header />
       <Provider store={store}>
         <Component {...pageProps} />
       </Provider>
